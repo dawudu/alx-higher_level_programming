@@ -5,4 +5,4 @@ for index in range(122, 96, -1):
         answer += chr(index - 32)
     else:
         answer += chr(index * 1)
-    print('{}'.format(answer), end='')
+print('{}'.format(answer), end='')
